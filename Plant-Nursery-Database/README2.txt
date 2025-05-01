@@ -15,6 +15,4 @@ of the folder containing the PHP scripts in the "htdocs" folder. Click on whiche
 action you want to run.
 
 
-The Scripts document is the list of queries used in the Query-Functions document. 
-The Query-Functions document showcases complex SQL queries for data analysis. QV0 in the former 
-document will correspond to the QV0 in the latter document. 
+itemView 0-4 will correspond to QV0-4 in the Query-Functions document. 
