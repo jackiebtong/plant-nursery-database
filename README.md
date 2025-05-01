@@ -1,4 +1,4 @@
-# plant-nursery-database
+# Plant Nursery Management System
 MySQL database for tracking prices, customers, and other store operations.
 
 
@@ -11,7 +11,7 @@ MySQL database for tracking prices, customers, and other store operations.
 ## Database Schema in Schema.pdf
 
 ## Sample Query
-DROP VIEW IF EXISTS itemview;
+'''DROP VIEW IF EXISTS itemview;
 CREATE VIEW itemview AS
 SELECT 
     i.iId AS iId,
@@ -34,6 +34,7 @@ JOIN
     CUSTOMER c ON sc.cId = c.cId
 GROUP BY 
     i.iId, i.Iname, i.Sprice;
+'''
 
 **Skills Demonstrated**:  
 - Database design (3NF normalization)  
